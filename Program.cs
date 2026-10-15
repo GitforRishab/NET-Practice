@@ -82,7 +82,7 @@ foreach(string name in names)
 */
 //generics
 
-List<string> show = [];
+/* List<string> show = [];
 
 void showdata(List<string>show)
 {
@@ -116,5 +116,43 @@ showdata(show);
     {
         Console.WriteLine("Alr, have a nice day cya");
     }
+
+*/
+
+//methods, out and ref param
+
+/* int x;
+
+void doublenum(out int x){
+    x =  23;
+}
+
+doublenum(out x);
+
+Console.WriteLine(x);*/
+
+/* bool tf = int.TryParse(Console.ReadLine(), out int x);
+Console.WriteLine(tf);
+Console.WriteLine(x); */
+
+/* int x = 10;
+void change (ref int x)
+{
+    x = 20;
+}
+
+void change2 (int x)
+{
+    x = 20;
+}
+change2(x);
+Console.WriteLine(x);
+change (ref x);
+Console.WriteLine(x); */
+
+/* bool success = int.TryParse(Console.ReadLine(), out int x);
+int? result = success ? x : null;
+Console.WriteLine(result ?? 1234); */
+
 
 
